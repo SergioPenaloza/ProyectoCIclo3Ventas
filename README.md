@@ -8,4 +8,4 @@ Se implementará un sistema de información que permita generar un control en el
 La plataforma tendrá sus respectivos roles de administración para cada una de las áreas implicadas en la cadena de distribución de la mercancía. 
 El rol principal será a cargo del área logístico-administrativa. Un rol secundario estará a cargo del área contable para su debido control y manejo de la información respectivamente.
 # INTEGRANTES
--Leonardo Fabio Vergara Ibañez
+-Leonardo Fabio Vergara Ibañez , soy Biologo de profesion tengo 32 años, oriundo del municipio de san carlos cordoba.
