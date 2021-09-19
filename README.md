@@ -3,7 +3,9 @@ Aplicación web para el ciclo 3 de MisionTIC
 Prueba 1
 
 # DESCRIPCION DEL PROYECTO
-Esta plataforma nos permitirá  hacer seguimiento a una cadena de distribución de equipos de cómputo mediante el control de entrada y salida de productos, cada vez que llegue mercancía pues se hará la debida actualización de la base de datos - que sería el inventario- y de la misma manera, cuando se haga una venta-envío.
+Se implementará un sistema de información que permita generar un control en el flujo de entrada y salida de mercancía de la bodega. La entrada y salida generará la debida actualización de la base de datos -inventario-. 
 
+La plataforma tendrá sus respectivos roles de administración para cada una de las áreas implicadas en la cadena de distribución de la mercancía. 
+El rol principal será a cargo del área logístico-administrativa. Un rol secundario estará a cargo del área contable para su debido control y manejo de la información respectivamente.
 # INTEGRANTES
 -Leonardo Fabio Vergara Ibañez
