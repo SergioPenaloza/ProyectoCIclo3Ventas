@@ -10,4 +10,5 @@ La plataforma tendrá sus respectivos roles de administración para cada una de 
 
 # INTEGRANTE 
 
-Yeraldin Andrea Cueto Niño: Bogotana e Ingeniera Agrónoma de profesion.
+-Yeraldin Andrea Cueto Niño: Bogotana e Ingeniera Agrónoma de profesion.
+-Juan David Torres Román: Villavicense y estudiante de ingeniería eléctrica.
