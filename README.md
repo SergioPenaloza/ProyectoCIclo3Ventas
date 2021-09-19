@@ -1,4 +1,4 @@
-# ProyectoCIclo3Ventas
+# ProyectoCiclo3Ventas
 
 # DESCRIPCIÓN DEL PROYECTO:
 
