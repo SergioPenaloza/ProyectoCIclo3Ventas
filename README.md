@@ -1,3 +1,1 @@
-# ProyectoCIclo3Ventas
-Aplicación web para el ciclo 3 de MisionTIC
-Prueba 1
+- Sergio Alejandro Peñaloza Gelves, Estudiante de ingeniería de Sistemas. 
