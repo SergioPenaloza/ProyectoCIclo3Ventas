@@ -1,0 +1,66 @@
+main {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #bfcbe6;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10%;
+}
+
+main section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 4fr;
+      grid-template-columns: 1fr 4fr;
+}
+
+main section input {
+  font-size: 25px;
+}
+
+main .sectionButton {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 5fr;
+      grid-template-columns: 5fr;
+  margin-top: 5px;
+}
+
+main button {
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 760px;
+  font-size: 15px;
+}
+
+main .button2 {
+  height: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 150px;
+  font-size: 10px;
+}
+
+main .tabla_productos {
+  width: 100%;
+}
+
+main .tabla_productos thead th {
+  text-align: center;
+  padding: 10px;
+  color: blue;
+  border: 1px solid white;
+}
+
+main .tabla_productos tbody tr td {
+  padding: 10px;
+  border: 1px solid white;
+}
+
+main .tabla_productos tbody tr th {
+  padding-left: 10px;
+  border: 1px solid white;
+}
+/*# sourceMappingURL=Estilos.css.map */
