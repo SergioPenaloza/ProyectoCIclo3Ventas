@@ -1,0 +1,159 @@
+
+<html>
+    <head>
+        <title>Registrar | Adminsitrador de Ventas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./../css/bootstrap.min.css"> 
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>      
+        <script type="text/javascript" src="../js/simularDatos.js"></script>   
+    </head>
+    <body>
+        <div class="container" style="padding-top: 20px;">
+            <div class="card">
+                <div class="card-header">
+                    Ventas
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-3">
+                            <label for="ven_id" class="col-form-label form-control-sm">ID</label>
+                            <input type="text" class="form-control form-control-sm" id="ven_id" value="100">
+                        </div>
+                        <div class="col-3">
+                            <label for="ven_fecha" class="col-form-label form-control-sm">Fecha</label>
+                            <input type="date" class="form-control form-control-sm" id="ven_fecha" value="2021-09-10">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-3">
+                            <label for="ven_id" class="col-form-label form-control-sm">Cliente</label>
+                            <input type="text" class="form-control form-control-sm" id="ven_id" value="1054512300">
+                        </div>
+                        <div class="col-6">
+                            <label for="ven_nombre" class="col-form-label form-control-sm">&nbsp;</label>
+                            <input type="text" class="form-control form-control-sm" id="ven_nombre" value="Jose Daniel Gutierrez Martinez">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-3">
+                            <label for="cli_id" class="col-form-label form-control-sm">Vendedor</label>
+                            <input type="text" class="form-control form-control-sm" id="cli_id" value="1005014258">
+                        </div>
+                        <div class="col-6">
+                            <label for="cli_nombre" class="col-form-label form-control-sm">&nbsp;</label>
+                            <input type="text" class="form-control form-control-sm" id="cli_nombre" value="Juan Antonio Jaimes Marquez">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#pedidoFormulario">
+                                +Producto
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12" style="height: 220px; overflow-y: scroll;">
+                            <table class="table table-striped table-hover table-sm" id="productoTabla">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Producto</th>
+                                        <th scope="col">Cantidad</th>
+                                        <th scope="col">Precio</th>
+                                        <th scope="col">&nbsp;</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td scope="row">1</td>
+                                        <td>Cuaderno Cuadriculado ... de 100</td>
+                                        <td>15</td>
+                                        <td>8000</td>
+                                        <td><button type="button" class="btn btn-sm btn-primary productoBorrar">Quitar</button></td>                                        
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">2</td>
+                                        <td>Colores ... de 12u</td>
+                                        <td>5</td>
+                                        <td>10500</td>
+                                        <td><button type="button" class="btn btn-sm btn-primary productoBorrar">Quitar</button></td>                                        
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">3</td>
+                                        <td>Lapiz ... de 6u</td>
+                                        <td>7</td>
+                                        <td>7000</td>
+                                        <td><button type="button" class="btn btn-sm btn-primary productoBorrar">Quitar</button></td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <label for="ven_total" class="col-form-label form-control-sm">Total</label>
+                            </div>
+                            <div class="col-3">
+                                <input type="text" class="form-control form-control-sm" id="ven_total" readonly="" value="221500">
+                            </div>
+                            <div class="col-3 text-center">
+                                <button type="button" class="btn btn-primary btn-sm" onclick="alert('No esta disponible la acciòn');">Guardar</button>
+                            </div>
+                            <div class="col-3 text-center">
+                                <button type="button" class="btn btn-primary btn-sm" onclick="location='./ventasControl.html'">Cancelar</button>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer text-muted">
+                    Derechos de Autor 2021 
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="pedidoFormulario" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Producto</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="pro_id" class="col-form-label form-control-sm">ID</label>
+                                <input type="text" class="form-control form-control-sm" id="pro_id" value="10">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="pro_nombre" class="col-form-label form-control-sm">Nombre</label>
+                                <input type="text" class="form-control form-control-sm" id="pro_nombre" value="Escuadra de 45°">
+                            </div>
+                        </div>
+                        <div class="row">                            
+                            <div class="col-12">
+                                <label for="pro_cantidad" class="col-form-label form-control-sm">Cantidad</label>
+                                <input type="number" class="form-control form-control-sm" id="pro_cantidad" value="10">
+                            </div>
+                        </div>
+                        <div class="row">                            
+                            <div class="col-12">
+                                <label for="pro_precio" class="col-form-label form-control-sm">Precio</label>
+                                <input type="number" class="form-control form-control-sm" id="pro_precio" value="7500">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="pedidoAgregar">Guardar</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
