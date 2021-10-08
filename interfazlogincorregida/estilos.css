@@ -1,0 +1,78 @@
+body{
+    background: url(https://d500.epimg.net/cincodias/imagenes/2020/10/14/lifestyle/1602661194_548007_1602661775_noticia_normal_recorte1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+   
+
+.main-section  {
+    margin-left: 20%;
+    padding: 0%;
+   
+
+}
+.modal-content{
+    background-color: rgb(75, 75, 78);
+    opacity: .95;
+    padding: 0 50px;
+    box-shadow: 0px 0px 3px rgb(10, 10, 99);
+    background-size: cover;
+    border-radius: 5%;
+
+}
+
+.user-img{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.user-img img {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 50%;
+}
+.user-img h2 {
+        color:white;
+    }
+
+}
+.form-group input {
+    height: 50px;
+    font-size: 15px;
+    border-bottom: black;
+    padding-left: 54px;
+}
+
+
+.form-group::before {
+        position: absolute;
+        height: 50%;
+        left: 5px;
+        font-size: 22px;
+        padding-top: 4px;
+        
+}
+
+.form-group button {
+    width: 100%;
+    color:rgb(55, 17, 194);
+    font-size: 100%;
+    
+}
+
+.form-group button i {
+    color: blue;
+    
+}
+
+
+
+
+
+.olvido{
+    padding: 5px 0;
+}
+
+.olvido a {
+    color: white;
+    font-size: 150%;
+}
